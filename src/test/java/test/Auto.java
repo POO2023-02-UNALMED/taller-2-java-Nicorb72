@@ -6,7 +6,7 @@ public class Auto {
 	
 	int precio;
 	
-	Asiento [] asientos;
+	Asiento[] asientos;
 	
 	String marca;
 	
@@ -23,7 +23,7 @@ public class Auto {
 	    for (int i = 0 ; i < asientos.length; i++)
 	    	
 	    {
-	    	if (asientos [i] != null)
+	    	if (asientos[i] != null)
 	    	
 	    	{
 	    		numAsientos++;
@@ -41,7 +41,7 @@ public class Auto {
 		{
 			for (int i = 0 ; i < asientos.length; i++)
 			{
-				if (asientos [i] != null)
+				if (asientos[i] != null)
 				
 				{
 					if (asientos[i].registro != registro)
@@ -52,13 +52,12 @@ public class Auto {
 				}
 			}
 			return "Auto original";
+		}else {
+			return "Las piezas no son originales";
+			
 		}
-		else {
-			return "las piezas no son originales";
 		
-		}
 	}
-	
 	
 
 }

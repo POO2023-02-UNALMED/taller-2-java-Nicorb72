@@ -8,7 +8,7 @@ public class Asiento {
 	
 	int registro;
 	
-	void CambiarColor (String color)
+	void cambiarColor (String color)
 	{
 		if (color == "rojo" || color == "verde" || color == "amarillo" || color == "negro" || color == "blanco")
 		{

@@ -35,7 +35,7 @@ public class Auto {
 	    return numAsientos;
 	}
 	
-	String verificarintegridad()
+	String verificarIntegridad()
 	{
 		if ( registro == motor.registro)
 		{
